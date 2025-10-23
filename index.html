@@ -1,115 +1,182 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Biografía de Rodrigo Fernando Bohorquez Diaz, estudiante de Administración de Negocios en la Universidad Católica San Pablo.">
-  <meta name="keywords" content="Rodrigo Fernando Bohorquez Diaz, Administración de Negocios, Universidad Católica San Pablo, Arequipa, biografía, Perú">
-  <meta name="author" content="Rodrigo Fernando Bohorquez Diaz">
-  <title>Rodrigo Fernando Bohorquez Diaz | Biografía</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
-    body {
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      background-color: #f6efe3; /* beige cálido */
-      color: #3b3b3b;
-      line-height: 1.8;
-    }
-
-    header {
-      text-align: center;
-      color: #3b3b3b;
-      padding: 90px 20px 40px 20px;
-      background: linear-gradient(180deg, #f3e6d4, #f6efe3);
-      border-bottom: 2px solid #d2b48c;
-    }
-
-    header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
-      color: #5a4634;
-      letter-spacing: 1px;
-    }
-
-    header p {
-      font-size: 1.15rem;
-      color: #7a6a58;
-      margin-top: 5px;
-      font-weight: 500;
-    }
-
-    main {
-      max-width: 960px;
-      margin: 70px auto;
-      background: #fffaf4;
-      border-radius: 18px;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-      padding: 60px 70px;
-    }
-
-    .wide-img {
-      display: block;
-      margin: 0 auto 50px;
-      width: 100%;
-      max-height: 400px;
-      object-fit: cover;
-      border-radius: 14px;
-      box-shadow: 0 6px 14px rgba(0,0,0,0.1);
-    }
-
-    h2 {
-      color: #8b6b43;
-      margin-top: 50px;
-      margin-bottom: 20px;
-      font-size: 1.7rem;
-      text-align: left;
-      border-left: 6px solid #d2b48c;
-      padding-left: 15px;
-    }
-
-    p {
-      font-size: 1.05rem;
-      margin-bottom: 18px;
-      text-align: justify;
-    }
-
-    footer {
-      text-align: center;
-      padding: 35px;
-      color: #7a6a58;
-      font-size: 0.9rem;
-      background: #f1e3d3;
-      border-top: 2px solid #d2b48c;
-      margin-top: 70px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Fernando Bohorquez Diaz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            overflow-x: hidden;
+        }
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at top left, #000428, #004e92);
+            z-index: -1;
+        }
+        .container {
+            max-width: 900px;
+            margin: 80px auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #fff;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        img:hover {
+            transform: scale(1.04);
+            box-shadow: 0 0 25px rgba(102, 204, 255, 0.4);
+        }
+        .section {
+            margin-top: 40px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 8px 0;
+            transition: transform 0.3s ease, text-shadow 0.3s ease;
+        }
+        li:hover {
+            transform: scale(1.04);
+            text-shadow: 0 0 12px rgba(102, 204, 255, 0.6);
+        }
+        h2 {
+            transition: transform 0.3s ease, text-shadow 0.3s ease;
+        }
+        h2:hover {
+            transform: scale(1.04);
+            text-shadow: 0 0 12px rgba(102, 204, 255, 0.6);
+        }
+        a {
+            color: #66ccff;
+            text-decoration: none;
+            margin: 0 5px;
+            transition: transform 0.3s ease;
+        }
+        a:hover {
+            transform: scale(1.05);
+            text-shadow: 0 0 8px #66ccff;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Rodrigo Fernando Bohorquez Diaz</h1>
-    <p>Estudiante de Administración de Negocios | Universidad Católica San Pablo</p>
-  </header>
+    <div id="particles-js"></div>
+    <div class="container">
+        <h1>Rodrigo Fernando Bohorquez Diaz</h1>
+        <h2>Estudiante de Administración de Negocios<br>Universidad Católica San Pablo — 5.º ciclo</h2>
+        <img src="mi-foto.png" alt="Foto de Rodrigo Bohorquez">
 
-  <main>
-    <!-- Imagen ancha -->
-    <img src="mi-foto.png" alt="Foto de Rodrigo Fernando Bohorquez Diaz" class="wide-img">
+        <!-- SOBRE MÍ -->
+        <div class="section">
+            <h2>Sobre mí</h2>
+            <p>
+                Soy estudiante de Administración de Negocios en la Universidad Católica San Pablo, actualmente cursando el quinto ciclo de la carrera. 
+                Me apasiona comprender cómo las organizaciones pueden generar valor sostenible a través de una gestión eficiente, estratégica y centrada en las personas. 
+                Elegí esta carrera porque me motiva el desafío de tomar decisiones que impacten positivamente en el desarrollo económico y social, 
+                buscando siempre un equilibrio entre la rentabilidad empresarial y la responsabilidad ética.
+            </p>
+            <p>
+                Mis principales áreas de interés incluyen la gestión empresarial, la estrategia organizacional, el liderazgo y la innovación. 
+                A lo largo de mi formación universitaria he fortalecido competencias analíticas, trabajo en equipo y comunicación efectiva, 
+                las cuales considero esenciales para desempeñarme en entornos dinámicos y exigentes.
+            </p>
+            <p>
+                Mi propósito profesional es contribuir al crecimiento de las organizaciones mediante una gestión integral que combine la eficiencia operativa con una visión humana y estratégica del negocio.
+            </p>
+        </div>
 
-    <section>
-      <h2>Sobre mí</h2>
-      <p>Hola, soy <strong>Rodrigo Fernando Bohorquez Diaz</strong>, tengo 19 años y actualmente curso el 5.º-6.º ciclo de la carrera de <strong>Administración de Negocios</strong> en la <strong>Universidad Católica San Pablo</strong> (Arequipa, Perú).</p>
-      <p>Desde siempre me ha interesado entender cómo funcionan las empresas y las personas detrás de ellas. Elegí estudiar Administración de Negocios porque creo que es una carrera que abre muchas puertas: permite combinar la estrategia, la organización y la toma de decisiones con el desarrollo humano y el liderazgo. Me motiva poder formar parte de proyectos que generen impacto positivo y contribuyan al crecimiento de las personas y las organizaciones.</p>
-    </section>
+        <!-- CURSOS -->
+        <div class="section">
+            <h2>Cursos del periodo 2025-02</h2>
+            <ul>
+                <li><strong>Análisis de Datos</strong> — Profesor: Ernesto Cuadros Vargas (<a href="https://www.linkedin.com/in/ecuadrosv" target="_blank">LinkedIn</a>)<br>
+                Asistente de cátedra: Josue David Montenegro Salazar (<a href="https://www.linkedin.com/in/josuemontenegro" target="_blank">LinkedIn</a>)</li>
+                <li><strong>Comportamiento Organizacional</strong> — Profesor: Rafael Luis Guillermo Salas</li>
+                <li><strong>Historia de Occidente I</strong> — Profesora: Rosmery Debora Postigo Quiroz De Bocchio</li>
+                <li><strong>Costos y Planeamiento Presupuestal</strong> — Profesor: Raul Valverde Quiroz<br>
+                Asistente de cátedra: Tatiana Milagros Gonzales Portilla</li>
+            </ul>
+        </div>
 
-    <section>
-      <h2>Objetivo Profesional</h2>
-      <p>Mi objetivo es desarrollarme como un profesional íntegro, con una visión moderna y humana de los negocios. Aspiro a participar en equipos que valoren la innovación, el compromiso y la mejora continua, aportando ideas y energía para alcanzar metas comunes.</p>
-    </section>
-  </main>
+        <!-- RECORRIDO EDUCATIVO -->
+        <div class="section">
+            <h2>Recorrido Educativo</h2>
+            <ul>
+                <li>📘 Primaria: Colegio Domingo Savio – Arequipa</li>
+                <li>🏫 Secundaria: Colegio Innova Schools – Arequipa</li>
+                <li>🎓 Universidad: Universidad Católica San Pablo – Administración de Negocios (5.º ciclo)</li>
+            </ul>
+        </div>
 
-  <footer>
-    <p>© 2025 Rodrigo Fernando Bohorquez Diaz | Todos los derechos reservados</p>
-  </footer>
+        <!-- GUSTOS -->
+        <div class="section">
+            <h2>Mis Gustos</h2>
+            <h3>🎮 Videojuegos</h3>
+            <ul>
+                <li>Red Dead Redemption 2</li>
+                <li>The Last of Us</li>
+                <li>Elden Ring</li>
+                <li>ARK: Survival Evolved</li>
+                <li>Valorant</li>
+                <li>FC 25</li>
+            </ul>
+
+            <h3>🎵 Música</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=6ZGuGjx2nA0" target="_blank">Soda Stereo – De Música Ligera</a></li>
+                <li><a href="https://www.youtube.com/watch?v=2Q4B_xk5Hng" target="_blank">Los Prisioneros – Tren al Sur</a></li>
+                <li><a href="https://www.youtube.com/watch?v=3iBv7Zc9D2k" target="_blank">Beele – Si Te Interesa</a></li>
+                <li><a href="https://www.youtube.com/watch?v=kh-ZmBOn8qY" target="_blank">Bad Bunny – Monaco</a></li>
+            </ul>
+        </div>
+
+        <!-- CONTACTO -->
+        <div class="section">
+            <h2>Contacto</h2>
+            <p>📧 <a href="mailto:rodrigo.bohorquez@ucsp.edu.pe">rodrigobohorquez@ucsp.edu.pe</a></p>
+            <p>🔗 <a href="https://www.linkedin.com/in/rodrigo-bohorquez" target="_blank">LinkedIn</a></p>
+        </div>
+    </div>
+
+    <!-- PARTICLES -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {"value": 100},
+                "size": {"value": 3},
+                "move": {"speed": 1},
+                "line_linked": {"enable": true, "distance": 150, "color": "#66ccff", "opacity": 0.4, "width": 1},
+                "color": {"value": "#66ccff"},
+                "opacity": {"value": 0.7}
+            },
+            "interactivity": {
+                "events": {"onhover": {"enable": true, "mode": "repulse"}},
+                "modes": {"repulse": {"distance": 100, "duration": 0.4}}
+            },
+            "retina_detect": true
+        });
+    </script>
 </body>
 </html>
