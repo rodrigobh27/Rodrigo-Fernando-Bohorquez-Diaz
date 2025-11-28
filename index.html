@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Fernando Bohorquez Diaz</title>
 
-    <!-- ✅ Etiqueta de verificación de Google Search Console -->
+    <!-- Google Search Console -->
     <meta name="google-site-verification" content="3KitXz8Ihsb9x3xObxnYbriG4L6fK5tsw9703njNzMM" />
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        /* ======== ESTILOS GENERALES ======== */
         body, html {
             margin: 0;
             padding: 0;
@@ -28,7 +27,6 @@
             z-index: -2;
         }
 
-        /* Halo suave animado */
         .halo {
             position: fixed;
             top: 50%;
@@ -59,7 +57,6 @@
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
 
-        /* ======== ENCABEZADO ======== */
         .header-card {
             text-align: center;
             margin: 0 auto 40px;
@@ -67,15 +64,12 @@
             background: rgba(255, 255, 255, 0.08);
             border-radius: 20px;
             backdrop-filter: blur(10px);
-            box-shadow: 0 4px 25px rgba(102, 204, 255, 0.2);
             max-width: 700px;
         }
 
         h1 {
             font-size: 2.4em;
-            color: #fff;
             margin: 0;
-            white-space: nowrap; /* fuerza el texto en una sola línea */
         }
 
         h2.subtitle {
@@ -108,90 +102,33 @@
             padding: 0;
         }
 
-        li {
-            margin: 8px 0;
-            transition: transform 0.3s ease, text-shadow 0.3s ease;
-        }
-
         li:hover {
-            transform: scale(1.04);
+            transform: scale(1.03);
             text-shadow: 0 0 12px rgba(102, 204, 255, 0.6);
         }
 
-        h2 {
-            text-align: center;
-            transition: transform 0.3s ease, text-shadow 0.3s ease;
-        }
-
-        h2:hover {
-            transform: scale(1.04);
-            text-shadow: 0 0 12px rgba(102, 204, 255, 0.6);
+        li {
+            margin: 10px 0;
+            transition: 0.3s ease;
         }
 
         a {
             color: #66ccff;
             text-decoration: none;
-            margin: 0 5px;
-            transition: transform 0.3s ease, text-shadow 0.3s ease;
+            transition: 0.3s ease;
         }
 
         a:hover {
-            transform: scale(1.05);
-            text-shadow: 0 0 8px #66ccff;
+            text-shadow: 0 0 10px #66ccff;
         }
 
-        p {
-            line-height: 1.6;
-        }
-
-        /* ======== GUSTOS EN CUADRÍCULA ======== */
-        .grid-gustos {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .gusto-card {
-            background: rgba(255, 255, 255, 0.08);
-            border-radius: 15px;
-            padding: 15px;
+        h2 {
             text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s ease;
         }
 
-        .gusto-card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(102, 204, 255, 0.3);
-        }
-
-        .gusto-card span {
-            font-size: 1.8em;
-            display: block;
-            margin-bottom: 8px;
-        }
-
-        /* Centrar última tarjeta */
-        .gusto-card:last-child {
-            grid-column: 2 / 3; /* centra la última tarjeta en la columna del medio */
-        }
-
-        /* ======== RESPONSIVE ======== */
-        @media (max-width: 768px) {
-            h1 { white-space: normal; font-size: 2em; }
-            .grid-gustos {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            .gusto-card:last-child {
-                grid-column: auto;
-            }
-        }
-
-        @media (max-width: 500px) {
-            .grid-gustos {
-                grid-template-columns: 1fr;
-            }
+        h2:hover {
+            transform: scale(1.04);
         }
     </style>
 </head>
@@ -199,7 +136,6 @@
     <div id="particles-js"></div>
     <div class="halo"></div>
 
-    <!-- ENCABEZADO -->
     <div class="header-card">
         <h1>Rodrigo Fernando Bohorquez Diaz</h1>
         <h2 class="subtitle">Estudiante de Administración de Negocios — Universidad Católica San Pablo</h2>
@@ -208,81 +144,91 @@
     <div class="container">
         <img src="mi-foto.png" alt="Foto de Rodrigo Bohorquez">
 
-        <!-- SOBRE MÍ -->
+        <!-- Sobre mí -->
         <div class="section">
             <h2>Sobre mí</h2>
             <p>
                 Soy estudiante de Administración de Negocios en la Universidad Católica San Pablo, actualmente cursando el quinto ciclo de la carrera. 
-                Me apasiona comprender cómo las organizaciones pueden generar valor sostenible a través de una gestión eficiente, estratégica y centrada en las personas. 
-                Elegí esta carrera porque me motiva el desafío de tomar decisiones que impacten positivamente en el desarrollo económico y social, 
-                buscando siempre un equilibrio entre la rentabilidad empresarial y la responsabilidad ética.
+                Elegí esta carrera porque me motiva generar valor sostenible dentro de las organizaciones, combinando estrategia, liderazgo e innovación.
             </p>
             <p>
-                Mis principales áreas de interés incluyen la gestión empresarial, la estrategia organizacional, el liderazgo y la innovación. 
-                A lo largo de mi formación universitaria he fortalecido competencias analíticas, trabajo en equipo y comunicación efectiva, 
-                las cuales considero esenciales para desempeñarme en entornos dinámicos y exigentes.
+                A lo largo de mi formación he desarrollado competencias en análisis, comunicación y trabajo colaborativo. Me interesa comprender cómo 
+                las decisiones empresariales pueden tener impacto económico y social de manera responsable y eficiente.
             </p>
         </div>
 
-        <!-- CURSOS -->
+        <!-- Cursos -->
         <div class="section">
             <h2>Cursos del periodo 2025-02</h2>
             <ul>
-                <li><strong>Análisis de Datos</strong> — Profesor: Ernesto Cuadros Vargas (<a href="https://www.linkedin.com/in/ecuadrosv" target="_blank">LinkedIn</a>)<br>
-                Asistente de cátedra: Josue David Montenegro Salazar (<a href="https://www.linkedin.com/in/josuemontenegro" target="_blank">LinkedIn</a>)</li>
-                <li><strong>Comportamiento Organizacional</strong> — Profesor: Rafael Luis Guillermo Salas</li>
-                <li><strong>Historia de Occidente I</strong> — Profesora: Rosmery Debora Postigo Quiroz De Bocchio</li>
-                <li><strong>Costos y Planeamiento Presupuestal</strong> — Profesor: Raul Valverde Quiroz<br>
-                Asistente de cátedra: Tatiana Milagros Gonzales Portilla</li>
+                <li>
+                    <strong>Análisis de Datos</strong> — Profesor: Ernesto Cuadros Vargas 
+                    (<a href="https://www.linkedin.com/in/ecuadrosv" target="_blank">LinkedIn</a>)<br>
+                    Asistente: Josue David Montenegro Salazar 
+                    (<a href="https://www.linkedin.com/in/josuemontenegro" target="_blank">LinkedIn</a>)
+                </li>
+
+                <li>
+                    <strong>Comportamiento Organizacional</strong> — Profesor: Rafael Luis Guillermo Salas 
+                    (<a href="https://www.linkedin.com/in/rafael-guillermo-salas-ramos-644392181/" target="_blank">LinkedIn</a>)
+                </li>
+
+                <li>
+                    <strong>Historia de Occidente I</strong> — Profesora: Rosmery Debora Postigo Quiroz De Bocchio
+                    (<a href="https://www.linkedin.com/in/rosmery-postigo-463897197/" target="_blank">LinkedIn</a>)
+                </li>
+
+                <li>
+                    <strong>Costos y Planeamiento Presupuestal</strong> — Profesor: Raul Valverde Quiroz 
+                    (<a href="https://www.linkedin.com/in/raul-valverde-quiroz-5bb589196/" target="_blank">LinkedIn</a>)<br>
+                    Asistente: Tatiana Milagros Gonzales Portilla 
+                    (<a href="https://www.linkedin.com/in/tatianagonzalesahumada/" target="_blank">LinkedIn</a>)
+                </li>
             </ul>
         </div>
 
-        <!-- RECORRIDO EDUCATIVO -->
+        <!-- Recorrido Educativo -->
         <div class="section">
             <h2>Recorrido Educativo</h2>
             <ul>
-                <li>📘 Primaria: Colegio Domingo Savio – Arequipa</li>
-                <li>🏫 Secundaria: Colegio Innova Schools – Arequipa</li>
-                <li>🎓 Universidad: Universidad Católica San Pablo – Administración de Negocios (5.º ciclo)</li>
+                <li>📘 Primaria — Colegio Domingo Savio (Arequipa)</li>
+                <li>🏫 Secundaria — Innova Schools (Arequipa)</li>
+                <li>🎓 Universidad — UCSP (Administración de Negocios, 5.º ciclo)</li>
             </ul>
         </div>
 
-        <!-- COMPAÑEROS -->
+        <!-- Compañeros -->
         <div class="section">
             <h2>Compañeros</h2>
             <ul>
-                <li>👨‍🎓 Friths Alexander Ccolque Ccori — <a href="https://www.linkedin.com/in/friths-alexander-ccolque-ccori-030008389" target="_blank">LinkedIn</a></li>
-                <li>👨‍🎓 Mariano Andrei Mendoza Pinto — <a href="https://www.linkedin.com/in/mariano-mendoza-pinto-153a52249" target="_blank">LinkedIn</a></li>
-                <li>👨‍🎓 Piero Mathias Chahuares Díaz — <a href="https://www.linkedin.com/in/piero-mathias-chahuares-díaz" target="_blank">LinkedIn</a></li>
+                <li><strong>Marializ Cadenas Huillcapacco</strong> — <a href="https://www.linkedin.com/in/marializcadenashuillcapacco/" target="_blank">LinkedIn</a> — <a href="https://marializcadenashuillcapacco.github.io/pagina-web/" target="_blank">Web</a></li>
+                <li><strong>Traicy Pacco Colque</strong> — <a href="https://www.linkedin.com/in/traicy-pacco-colque-01469b386/" target="_blank">LinkedIn</a> — <a href="https://traicypaccocolque.github.io/" target="_blank">Web</a></li>
+                <li><strong>Santiago Velasco Rivera</strong> — <a href="https://www.linkedin.com/in/santiago-velasco-rivera/" target="_blank">LinkedIn</a> — <a href="https://svr-glitch.github.io/SANTIAGO-VELASCO-RIVERA/" target="_blank">Web</a></li>
+                <li><strong>Chaska Candia Ochoa</strong> — <a href="https://www.linkedin.com/in/chaska-candia-ochoa-277079386/" target="_blank">LinkedIn</a> — <a href="https://chaskacandia.github.io/chaskacandiaochoa.github.io/" target="_blank">Web</a></li>
+                <li><strong>Marilyn Shiomara Deza Ccama</strong> — <a href="https://www.linkedin.com/in/marilyn-shiomara-deza-ccama-b7a191335" target="_blank">LinkedIn</a> — <a href="https://deza-ccama.github.io/marilyn-shiomara-deza-ccama/" target="_blank">Web</a></li>
+                <li><strong>Angela Becerra Amado</strong> — <a href="https://www.linkedin.com/in/angela-becerra-0b6ab6345/" target="_blank">LinkedIn</a> — <a href="https://angelabecerra-jpg.github.io/pagina-web/" target="_blank">Web</a></li>
+                <li><strong>Héctor Ricardo Rodríguez Gaytán</strong> — <a href="https://www.linkedin.com/in/hector-ricardo-rodriguez-gaytan-76639437b" target="_blank">LinkedIn</a> — <a href="https://hectorrodriguez17.github.io/mywebhr/" target="_blank">Web</a></li>
+                <li><strong>Yamil Santiago Valdiviezo Guardia</strong> — <a href="https://pe.linkedin.com/in/santiago-valdiviezo-1a4baa380" target="_blank">LinkedIn</a> — <a href="https://santiagovaldiviezo10.github.io/santiagovaldiviezo" target="_blank">Web</a></li>
+                <li><strong>Owen Kurt Vilcarani Checca</strong> — <a href="https://www.linkedin.com/in/owen-kurt-vilcarani-checca" target="_blank">LinkedIn</a> — <a href="https://owenvh.github.io" target="_blank">Web</a></li>
+                <li><strong>Mauricio Joel Pari Gomez</strong> — <a href="https://www.linkedin.com/in/mauricio-joel-pari-gomez-5b234a380/" target="_blank">LinkedIn</a> — <a href="https://pari-dot.github.io/Mauricio.github.io/" target="_blank">Web</a></li>
+                <li><strong>Macedo Boza Roald</strong> — <a href="https://www.linkedin.com/in/roald-macedo-boza-a466a4385" target="_blank">LinkedIn</a> — <a href="https://roaldmacedo-boza.github.io/roaldmacedo.github.io" target="_blank">Web</a></li>
+                <li><strong>Flavia Micaela Díaz Zevallos</strong> — <a href="https://www.linkedin.com/in/flavia-micaela-d%C3%ADaz-zevallos" target="_blank">LinkedIn</a> — <a href="https://flaviamicaeladiazzevallos1.github.io/" target="_blank">Web</a></li>
+                <li><strong>Cielo Geraldine Romero Peña</strong> — <a href="https://www.linkedin.com/in/cielo-geraldine-89a196387" target="_blank">LinkedIn</a> — <a href="https://cielogrp.github.io/Cielo-Geraldine-Romero-Pe-a/" target="_blank">Web</a></li>
+                <li><strong>Selena Ccallomamani Huamanñahui</strong> — <a href="https://www.linkedin.com/in/selena-ccallomamani-huaman%C3%B1ahui-6b0364311/" target="_blank">LinkedIn</a> — <a href="https://selenaccallomamani.github.io/selena.ccallomamani.github.io/" target="_blank">Web</a></li>
+                <li><strong>Luigui Andreé Calcina Batallanos</strong> — <a href="https://www.linkedin.com/in/luigui-calcina-53849b258" target="_blank">LinkedIn</a> — <a href="https://luiguicalcina-gif.github.io/Mi-Pagina-Web/" target="_blank">Web</a></li>
+                <li><strong>Bruno Dayer Ramos Peralta</strong> — <a href="https://www.linkedin.com/in/bruno-ramos-peralta-b92b07385" target="_blank">LinkedIn</a> — <a href="https://bdramosperalta.github.io/brunodayerramosperalta.io/" target="_blank">Web</a></li>
             </ul>
         </div>
 
-        <!-- GUSTOS -->
-        <div class="section">
-            <h2>Mis Gustos</h2>
-            <div class="grid-gustos">
-                <div class="gusto-card"><span>🎮</span>Red Dead Redemption 2</div>
-                <div class="gusto-card"><span>🎮</span>The Last of Us</div>
-                <div class="gusto-card"><span>🎮</span>Elden Ring</div>
-                <div class="gusto-card"><span>🎮</span>ARK: Survival Evolved</div>
-                <div class="gusto-card"><span>🎮</span>Valorant</div>
-                <div class="gusto-card"><span>🎮</span>FC 25</div>
-                <div class="gusto-card"><span>🎵</span><a href="https://www.youtube.com/watch?v=6ZGuGjx2nA0" target="_blank">Soda Stereo – De Música Ligera</a></div>
-                <div class="gusto-card"><span>🎵</span><a href="https://www.youtube.com/watch?v=2Q4B_xk5Hng" target="_blank">Los Prisioneros – Tren al Sur</a></div>
-                <div class="gusto-card"><span>🎵</span><a href="https://www.youtube.com/watch?v=3iBv7Zc9D2k" target="_blank">Beele – Si Te Interesa</a></div>
-                <div class="gusto-card"><span>🎵</span><a href="https://www.youtube.com/watch?v=kh-ZmBOn8qY" target="_blank">Bad Bunny – Monaco</a></div>
-            </div>
-        </div>
-
-        <!-- CONTACTO -->
+        <!-- Contacto -->
         <div class="section">
             <h2>Contacto</h2>
-            <p>📧 <a href="mailto:rodrigo.bohorquez@ucsp.edu.pe">rodrigobohorquez@ucsp.edu.pe</a></p>
+            <p>📧 <a href="mailto:rodrigo.bohorquez@ucsp.edu.pe">rodrigo.bohorquez@ucsp.edu.pe</a></p>
             <p>🔗 <a href="https://www.linkedin.com/in/rodrigo-bohorquez" target="_blank">LinkedIn</a></p>
         </div>
     </div>
 
-    <!-- FONDO DE PARTÍCULAS LIVIANO -->
+    <!-- Partículas -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script>
         particlesJS("particles-js", {
